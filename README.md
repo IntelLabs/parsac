@@ -1,6 +1,6 @@
 # PARSAC
 
-This is the implementation of the Parallel Simulated Annealing with Constraints (PARSAC) algorithm described in the paper 'Design Planning of Modern SOCs with Complex Constraints: A Path Towards Human-Quality FloorPlanning' [Link](https://arxiv.org/abs/2405.05495). The code can be used to reproduce the experiments in the paper. PARSAC achieves state-of-the-art performance on classical floorplanning problems. The Simulated Annealing (SA) engine in PARSAC is especially suited to problems with boundary constraints that require certain blocks to be placed at specific boundaries of the floorplan, and to problems with preplaced blocks where certain blocks have to be placed at specific x-y locations.
+This is the implementation of the Parallel Simulated Annealing with Constraints (PARSAC) algorithm described in the paper ['Design Planning of Modern SOCs with Complex Constraints: A Path Towards Human-Quality FloorPlanning'](https://arxiv.org/abs/2405.05495). The code can be used to reproduce the experiments in the paper. PARSAC achieves state-of-the-art performance on classical floorplanning problems. The Simulated Annealing (SA) engine in PARSAC is especially suited to problems with boundary constraints that require certain blocks to be placed at specific boundaries of the floorplan, and to problems with preplaced blocks where certain blocks have to be placed at specific x-y locations.
 
 ## Installing required packages
 ```shell
