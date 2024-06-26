@@ -1,0 +1,41 @@
+problem_config:
+   base_dir : ${hydra:runtime.cwd}/fp_problems/gsrc_bench/
+   base_name : n100
+   augment_constraints : False
+   n_edge_blocks : 7
+   n_clusters : 3
+   cluster_size : 3
+   n_preplaced : 10
+   seed : 43
+
+base_sa_config:
+   beta : 1.0
+   beta_cluster : 1.0
+   fixing_prob : 0.0001
+   T0 : 0.001
+   alpha : 0.0
+   beta_preplaced : 10
+
+fixed_outline_params:
+   fixed_outline_ar : 1.0
+   fixed_outline_extra_wspace : 0.1
+   fixed_outline_weight : 1.0
+   fixed_outline_enable : True
+   
+
+sa_schedule:
+   10: 0.0005
+   30: 0.0002
+   50: 0.0001
+   70: 0.00005
+   90: 0.00001
+   95: 0.000001   
+
+
+hard_preplace : True
+n_workers_per_machine : 1
+n_stage_steps : 100000
+results_path : ./sa_search_results.th
+n_stages : 100
+ar_increment : 0.0
+distributed : False

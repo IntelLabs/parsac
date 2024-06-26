@@ -1,0 +1,140 @@
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=False ar_increment=0.0 results_path=./n100_ar0_noconstraints_alpha09 base_sa_config.alpha=0.9  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=False ar_increment=0.0 results_path=./n200_ar0_noconstraints_alpha09 base_sa_config.alpha=0.9  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=False ar_increment=0.0 results_path=./n300_ar0_noconstraints_alpha09 base_sa_config.alpha=0.9  
+
+
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=False ar_increment=0.1 results_path=./n100_ar01_noconstraints_alpha09 base_sa_config.alpha=0.9  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=False ar_increment=0.1 results_path=./n200_ar01_noconstraints_alpha09 base_sa_config.alpha=0.9  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=False ar_increment=0.1 results_path=./n300_ar01_noconstraints_alpha09 base_sa_config.alpha=0.9  
+
+
+
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=True ar_increment=0.1 results_path=./n100_ar01_constraints_alpha09 base_sa_config.alpha=0.9  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=True ar_increment=0.1 results_path=./n200_ar01_constraints_alpha09 base_sa_config.alpha=0.9  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=True ar_increment=0.1 results_path=./n300_ar01_constraints_alpha09 base_sa_config.alpha=0.9  
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n100_ar01_constraints_vanilla_alpha09 base_sa_config.alpha=0.9  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n200_ar01_constraints_vanilla_alpha09 base_sa_config.alpha=0.9  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n300_ar01_constraints_vanilla_alpha09 base_sa_config.alpha=0.9  
+
+
+
+
+#######################
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=False ar_increment=0.0 results_path=./n100_ar0_noconstraints_alpha05 base_sa_config.alpha=0.5  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=False ar_increment=0.0 results_path=./n200_ar0_noconstraints_alpha05 base_sa_config.alpha=0.5  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=False ar_increment=0.0 results_path=./n300_ar0_noconstraints_alpha05 base_sa_config.alpha=0.5  
+
+
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=False ar_increment=0.1 results_path=./n100_ar01_noconstraints_alpha05 base_sa_config.alpha=0.5  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=False ar_increment=0.1 results_path=./n200_ar01_noconstraints_alpha05 base_sa_config.alpha=0.5  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=False ar_increment=0.1 results_path=./n300_ar01_noconstraints_alpha05 base_sa_config.alpha=0.5  
+
+
+
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=True ar_increment=0.1 results_path=./n100_ar01_constraints_alpha05 base_sa_config.alpha=0.5  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=True ar_increment=0.1 results_path=./n200_ar01_constraints_alpha05 base_sa_config.alpha=0.5  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=True ar_increment=0.1 results_path=./n300_ar01_constraints_alpha05 base_sa_config.alpha=0.5  
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n100_ar01_constraints_vanilla_alpha05 base_sa_config.alpha=0.5  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n200_ar01_constraints_vanilla_alpha05 base_sa_config.alpha=0.5  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n300_ar01_constraints_vanilla_alpha05 base_sa_config.alpha=0.5  
+
+
+
+
+######################
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=False ar_increment=0.0 results_path=./n100_ar0_noconstraints_alpha01 base_sa_config.alpha=0.1  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=False ar_increment=0.0 results_path=./n200_ar0_noconstraints_alpha01 base_sa_config.alpha=0.1  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=False ar_increment=0.0 results_path=./n300_ar0_noconstraints_alpha01 base_sa_config.alpha=0.1  
+
+
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=False ar_increment=0.1 results_path=./n100_ar01_noconstraints_alpha01 base_sa_config.alpha=0.1  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=False ar_increment=0.1 results_path=./n200_ar01_noconstraints_alpha01 base_sa_config.alpha=0.1  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=False ar_increment=0.1 results_path=./n300_ar01_noconstraints_alpha01 base_sa_config.alpha=0.1  
+
+
+
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=True ar_increment=0.1 results_path=./n100_ar01_constraints_alpha01 base_sa_config.alpha=0.1  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=True ar_increment=0.1 results_path=./n200_ar01_constraints_alpha01 base_sa_config.alpha=0.1  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=True ar_increment=0.1 results_path=./n300_ar01_constraints_alpha01 base_sa_config.alpha=0.1  
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n100_ar01_constraints_vanilla_alpha01 base_sa_config.alpha=0.1  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n200_ar01_constraints_vanilla_alpha01 base_sa_config.alpha=0.1  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n300_ar01_constraints_vanilla_alpha01 base_sa_config.alpha=0.1  
+
+
+
+
+################# soft preplacement experiments
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n100_ar01_constraints_vanilla_softpreplace_alpha01 base_sa_config.alpha=0.1 hard_preplace=False  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n200_ar01_constraints_vanilla_softpreplace_alpha01 base_sa_config.alpha=0.1 hard_preplace=False  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n300_ar01_constraints_vanilla_softpreplace_alpha01 base_sa_config.alpha=0.1 hard_preplace=False  
+
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n100_ar01_constraints_vanilla_softpreplace_alpha05 base_sa_config.alpha=0.5 hard_preplace=False  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n200_ar01_constraints_vanilla_softpreplace_alpha05 base_sa_config.alpha=0.5 hard_preplace=False  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n300_ar01_constraints_vanilla_softpreplace_alpha05 base_sa_config.alpha=0.5 hard_preplace=False  
+
+
+
+- python3 main.py problem_config.base_name=n100 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n100_ar01_constraints_vanilla_softpreplace_alpha09 base_sa_config.alpha=0.9 hard_preplace=False  
+
+- python3 main.py problem_config.base_name=n200 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n200_ar01_constraints_vanilla_softpreplace_alpha09 base_sa_config.alpha=0.9 hard_preplace=False  
+
+- python3 main.py problem_config.base_name=n300 problem_config.augment_constraints=True ar_increment=0.1 base_sa_config.fixing_prob=0.0 results_path=./n300_ar01_constraints_vanilla_softpreplace_alpha09 base_sa_config.alpha=0.9 hard_preplace=False  
+
+
+
+
+
+
