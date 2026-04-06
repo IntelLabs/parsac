@@ -1,3 +1,8 @@
+**THIS PROJECT IS ARCHIVED**  
+Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.
+Patches to this project are no longer accepted by Intel.  
+If you have an ongoing need to use this project, are interested in independently developing it, or would like to maintain patches for the community, please create your own fork of the project. 
+
 # PARSAC
 
 This is the implementation of the Parallel Simulated Annealing with Constraints (PARSAC) algorithm described in the paper ['Design Planning of Modern SOCs with Complex Constraints: A Path Towards Human-Quality FloorPlanning'](https://arxiv.org/abs/2405.05495). The code can be used to reproduce the experiments in the paper. PARSAC achieves state-of-the-art performance on classical floorplanning problems. The Simulated Annealing (SA) engine in PARSAC is especially suited to problems with boundary constraints that require certain blocks to be placed at specific boundaries of the floorplan, and to problems with preplaced blocks where certain blocks have to be placed at specific x-y locations.
